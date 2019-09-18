@@ -1,0 +1,20 @@
+/* calculo.html */
+.center{
+  max-width: 600px;
+  margin: auto;
+  background: rgb(83, 83, 83);
+  padding: 20px;
+  height: 100%;
+  text-align: center;
+  color: white
+}
+.calc{
+  margin: 1% 0 1% 0;
+  padding: 10px;
+  background-color: rgba(244, 247, 247, 0.116);
+  border-radius: 10px;
+}
+/* calculo.html */
+
+
+/* criar tag body */
