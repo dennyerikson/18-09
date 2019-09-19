@@ -10,6 +10,10 @@
 </head>
 <body>
     <!-- criar topnav -->
+    <div class="topnav">
+        <a href="./index.html" class="active">Home</a>
+        <a href="./calculo.htm">Calculo</a>
+    </div>
 
 
     <div class="center">
@@ -34,9 +38,25 @@
               
        
         <!-- criar div calcular -->
+        <div class="calc">
+            <div class="input">
+                <label for="input">Valor de B</label>
+                <input type="text" id="b">
+            </div>
+            <br>
+            <div class="input">
+                <label for="input">Valor de C</label>
+                <input type="input" id="c">
+            </div>
+            <br>
+            <button type="submit" onclick="calc()">Calcular</button>
+            <br>
+            <h2 id="distancia">A=0.0</h2>
+        </div>
 
     </div>
     
         <!-- inportar jquery -->
+        <script src="./js/index.js"></script>
 </body>
 </html>
